@@ -234,11 +234,10 @@ a{
     background-color: #fff;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 32px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.our-team-img{
-    margin-bottom: 28px;
+.our-team-block{
+    padding: 32px 0;
 }
 .our-team-caption{
     font-weight: 500;
@@ -313,10 +312,11 @@ a{
     background-color: #fff;
     cursor: pointer;
     position: relative;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.our-portfolio-item:hover .our-portfolio-block{
+.our-portfolio-item:hover{
     border: 1px solid #f4f4fd;
     border-top: none;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
