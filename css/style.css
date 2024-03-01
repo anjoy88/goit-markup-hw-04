@@ -308,10 +308,10 @@ a{
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.our-team-caption{
+.our-portfolio-block .our-team-caption{
     text-align-last: left;
 }
-.our-team-text{
+.our-portfolio-block .our-team-text{
     text-align-last: left;
 }
 .our-portfolio-item-text{
