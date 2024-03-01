@@ -77,8 +77,9 @@ a{
     display: flex;
     gap: 40px;
 }
-.navigation-item:first-child .navigation-link{
+.navigation-item-first .navigation-link{
     color: #404bbf;
+    padding: 24px 0;
 }
 .navigation-link{
     font-weight: 500;
@@ -96,7 +97,7 @@ a{
     position: relative;
     padding: 24px 0;
 }
-.navigation-item-first::after{
+.navigation-link-first::after{
     content: "";
     width: 100%;
     height: 4px;
