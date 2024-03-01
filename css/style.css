@@ -96,7 +96,7 @@ a{
     position: relative;
     padding: 24px 0;
 }
-.navigation-item:nth-child(1)::after{
+.navigation-item-first::after{
     content: "";
     width: 100%;
     height: 4px;
